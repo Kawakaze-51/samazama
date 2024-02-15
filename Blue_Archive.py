@@ -42,17 +42,6 @@ def get_resolution():
     sX = win32api.GetSystemMetrics(0)
     sY = win32api.GetSystemMetrics(1)
     if sX == 1920 and sY == 1080:
-        pyautogui.moveTo(1650, 145, duration=1)
-        pyautogui.click()
-        pyautogui.moveTo(1340, 145, duration=1)
-        pyautogui.click()
-        time.sleep(3)
-        pyautogui.moveTo(1545, 900, duration=1)
-        pyautogui.click()
-        pyautogui.moveTo(353, 564, duration=1)
-        pyautogui.click()
-        pyautogui.moveTo(930, 140, duration=1)
-        pyautogui.click()
         pyautogui.moveTo(1550, 864, duration=1)
         pyautogui.click()
     else:
